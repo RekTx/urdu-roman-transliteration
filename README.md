@@ -13,3 +13,26 @@ A deep learning-based transliteration system that converts Urdu script into Roma
 - **Production-Ready Inference** – Complete pipeline for text normalization, tokenization, and model inference.
 
 - **Comprehensive Evaluation** – BLEU, CER, WER, Exact Match Rate, and Perplexity metrics.
+
+# Project Structure
+notebooks/      # Jupyter notebook for training & inference
+
+src/            # Model, tokenizer, and inference code
+
+models/         # Trained model checkpoints
+
+data/           # Dataset references and download instructions
+
+requirements.txt
+
+README.md
+
+# Installation & Usage
+
+**Clone the repository:** git clone https://github.com/RekTx/urdu-roman-transliteration.git
+
+**Install dependencies:** pip install -r requirements.txt
+
+Download the Rekhta dataset https://github.com/amir9ume/urdu_ghazals_rekhta
+
+Run training or inference via the Jupyter notebook or src/transliterator.py.
